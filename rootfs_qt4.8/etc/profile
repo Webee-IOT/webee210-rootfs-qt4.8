@@ -1,10 +1,10 @@
 HOSTNAME='/bin/hostname'
 PS1='[Webee210]\# '
 export PS1 HOSTNAME
-insmod ko/cfbimgblt.ko 
-insmod ko/cfbfillrect.ko 
-insmod ko/cfbcopyarea.ko
-insmod ko/webee210_lcd.ko
+#insmod ko/cfbimgblt.ko 
+#insmod ko/cfbfillrect.ko 
+#insmod ko/cfbcopyarea.ko
+#insmod ko/webee210_lcd.ko
 
 #ft5306
 #insmod ko/ft5306/i2c-s3c2410.ko
@@ -34,6 +34,6 @@ export QT_PLUGIN_PATH=$QTDIR/plugins/
 
 export SDL_NOMOUSE=1
 
-#/webee_qt/qt -qws &
+/webee_qt/qt -qws &
 
 
